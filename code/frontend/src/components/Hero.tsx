@@ -21,7 +21,7 @@ export default function Hero() {
           className="hero-rise-3 mt-8 inline-block rounded-pill bg-accent px-7 py-3 text-accent-ink font-medium transition-transform duration-[var(--duration-fast)] hover:scale-[1.03]"
         />
       </div>
-      <div className="mx-auto max-w-page px-[var(--gutter)] pb-20">
+      <div className="mx-auto max-w-page px-[var(--gutter)]">
         <div
           className="hero-pane rounded-[var(--radius)] overflow-hidden"
           style={{ boxShadow: "var(--glow-accent)" }}
