@@ -1,11 +1,46 @@
 {
-  "site": { "name": "Your business" },
-  "nav": { "links": [{ "label": "Home", "href": "/" }], "cta": { "label": "Get in touch", "href": "#contact" } },
-  "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": { "label": "Get in touch", "href": "#contact" }
+  "site": { "name": "Tony Apple" },
+  "nav": {
+    "links": [
+      { "label": "Accessories", "href": "#accessories" },
+      { "label": "Visit", "href": "#visit" }
+    ],
+    "cta": { "label": "Visit the store", "href": "#visit" }
   },
-  "footer": { "line": "Your business · District 1, Saigon" }
+  "hero": {
+    "headline": "Genuine Apple accessories",
+    "sub": "Cases, cables, AirPods and watch bands, in stock in Hà Nội.",
+    "cta": { "label": "See accessories", "href": "#accessories" }
+  },
+  "accessories": {
+    "heading": "Accessories",
+    "items": [
+      {
+        "name": "Cases",
+        "desc": "Clear and silicone cases for iPhone, sized for every current model.",
+        "image": "/images/case.jpg"
+      },
+      {
+        "name": "Cables & chargers",
+        "desc": "USB-C cables and wall chargers for iPhone, iPad and Mac.",
+        "image": "/images/cables.jpg"
+      },
+      {
+        "name": "AirPods",
+        "desc": "AirPods and AirPods Pro, with spare ear tips and charging cases.",
+        "image": "/images/airpods.jpg"
+      },
+      {
+        "name": "Watch bands",
+        "desc": "Bands for every Apple Watch size, in silicone and woven fabric.",
+        "image": "/images/watchband.jpg"
+      }
+    ]
+  },
+  "visit": {
+    "heading": "Visit the store",
+    "address": "19 Duy Tân, Hà Nội",
+    "cta": { "label": "Get directions", "href": "https://maps.google.com/?q=19+Duy+T%C3%A2n+H%C3%A0+N%E1%BB%99i" }
+  },
+  "footer": { "line": "Tony Apple · 19 Duy Tân, Hà Nội" }
 }
