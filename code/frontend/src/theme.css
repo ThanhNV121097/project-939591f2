@@ -2,18 +2,19 @@
    these, so the owner changes the whole site by changing a value here — in
    the Studio, without a rebuild. Components never carry a raw colour. */
 :root {
-  --ground: #F6F2EA;
-  --surface: #FFFFFF;
-  --ink: #1B1917;
-  --ink-soft: #5E5954;
-  --accent: #B8412E;
-  --accent-ink: #FFFFFF;
-  --line: rgba(27, 25, 23, 0.12);
+  --ground: #0D1013;
+  --surface: #171B20;
+  --ink: #F2F1EC;
+  --ink-soft: #9CA1A8;
+  --accent: #C98A4B;
+  --accent-rgb: 201, 138, 75;
+  --accent-ink: #14110C;
+  --line: rgba(242, 241, 236, 0.12);
 
-  --font-display: "Fraunces";
+  --font-display: "Space Grotesk";
   --font-body: "Inter";
-  --weight-display: 500;
-  --tracking-display: -0.02em;
+  --weight-display: 600;
+  --tracking-display: -0.01em;
 
   --radius: 12px;
   --radius-sm: 6px;
