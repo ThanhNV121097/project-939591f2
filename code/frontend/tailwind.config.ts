@@ -19,7 +19,7 @@ export default {
         display: ["var(--font-display)", "serif"],
         body: ["var(--font-body)", "sans-serif"],
       },
-      borderRadius: { DEFAULT: "var(--radius)" },
+      borderRadius: { DEFAULT: "var(--radius)", sm: "var(--radius-sm)", pill: "var(--radius-pill)" },
       maxWidth: { page: "var(--page)" },
     },
   },
