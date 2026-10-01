@@ -2,7 +2,7 @@ import { T } from "../editable";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden pb-16">
       <div className="mx-auto max-w-page px-[var(--gutter)] pt-16 pb-12">
         <T
           k="hero.headline"
